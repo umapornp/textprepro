@@ -1,0 +1,48 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "textprepro"
+version = "0.0.0.1"
+description = "Everything Everyway All At Once Text Preprocessing."
+readme = "README.md"
+authors = [{name = "Umaporn Padungkiatwattana", email = "umaploy@gmail.com"}]
+license = {text = "MIT"}
+classifiers = [
+    "Intended Audience :: Developers",
+    "Intended Audience :: Education",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Text Processing"
+]
+keywords = ["text preprocessing", "text mining", "NLP", "Natural Language Processing"]
+dependencies = [
+    "beautifulsoup4",
+    "emoji",
+    "emot",
+    "gensim",
+    "scikit-learn",
+    "spacy",
+    "textblob",
+    "wordcloud",
+    "contractions",
+    "matplotlib",
+    "nltk"
+]
+requires-python = ">=3.8"
+
+[project.urls]
+Homepage = "https://github.com/umapornp/textprepro"
+Documentation = "https://github.com/umapornp/textprepro/blob/master/README.md"
+Source = "https://github.com/umapornp/textprepro"
+
+[tool.setuptools]
+packages = ["textprepro"]
