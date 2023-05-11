@@ -1,10 +1,11 @@
 import textprepro as pre
+import unittest
 
 from collections import Counter
-from unittest import TestCase, mock
+from unittest import mock
 
 
-class Test_Preprocess(TestCase):
+class Test_Preprocess(unittest.TestCase):
 
     def test_tokenize(self):
         self.assertEqual(pre.tokenize("hello world @user #hashtag", "tweet"), list(["hello", "world", "@user", "#hashtag"]))
@@ -176,11 +177,11 @@ class Test_Preprocess(TestCase):
     
     
     def test_remove_phone_numbers(self):
-        self.assertEqual(pre.remove_phone_numbers("tel: +66 (97) 247 2500 thanks"), "tel:  thanks")
+        self.assertEqual(pre.remove_phone_numbers("tel: +1 (123)-456-7890 thanks"), "tel:  thanks")
     
     
     def test_replace_phone_numbers(self):
-        self.assertEqual(pre.replace_phone_numbers("tel: +66 (97) 247 2500 thanks", "[PHONE]"), "tel: [PHONE] thanks")
+        self.assertEqual(pre.replace_phone_numbers("tel: +1 (123)-456-7890 thanks", "[PHONE]"), "tel: [PHONE] thanks")
     
     
     def test_preprocess_text(self):
@@ -189,3 +190,7 @@ class Test_Preprocess(TestCase):
         
     def test_preprocess_document(self):
         self.assertEqual(pre.preprocess_document(["hello world @user", "world hello @user"]), ["hello world", "world hello"])
+
+
+if __name__ == '__main__':
+    unittest.main()
