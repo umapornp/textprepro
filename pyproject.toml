@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "textprepro"
-version = "0.0.0.1"
+version = "0.0.1"
 description = "Everything Everyway All At Once Text Preprocessing."
 readme = "README.md"
 authors = [{name = "Umaporn Padungkiatwattana", email = "umaploy@gmail.com"}]
