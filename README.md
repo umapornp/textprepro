@@ -30,16 +30,16 @@
 
 ---------------------------------
 ### Table of Contents
-* [⏳ Installation](#⏳-installation)
-* [🚀 Quickstart](#🚀-quickstart)
-    * [🧹 Simply preprocess with the pipeline](#🧹-simply-preprocess-with-the-pipeline)
-    * [📂 Work with document or dataFrame](#📂-work-with-document-or-dataframe)
-    * [🪐 Customize your own pipeline](#🪐-customize-your-own-pipeline)
-* [💡 Features & Guides](#💡-features--guides)
-    * [📋 For General Text](#📋-for-general-text)
-    * [📱 For Social Media Text](#📱-for-social-media-text)
-    * [🌐 For Web Scraping Text](#🌐-for-web-scraping-text)
-    * [📈 Analytical Tools](#📈-analytical-tools)
+* [⏳ Installation](#-installation)
+* [🚀 Quickstart](#-quickstart)
+    * [🧹 Simply preprocess with the pipeline](#-simply-preprocess-with-the-pipeline)
+    * [📂 Work with document or dataFrame](#-work-with-document-or-dataframe)
+    * [🪐 Customize your own pipeline](#-customize-your-own-pipeline)
+* [💡 Features & Guides](#-features--guides)
+    * [📋 For General Text](#-for-general-text)
+    * [📱 For Social Media Text](#-for-social-media-text)
+    * [🌐 For Web Scraping Text](#-for-web-scraping-text)
+    * [📈 Analytical Tools](#-analytical-tools)
 
 ---------------------------------
 
