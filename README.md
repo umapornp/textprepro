@@ -8,11 +8,11 @@
             alt="PyPI">
     </a>
     <a href="https://pypi.org/project/textprepro">
-        <img src="https://img.shields.io/pypi/pyversions/textprepro?logo=python&logoColor=white"
+        <img src="https://img.shields.io/pypi/pyversions/textprepro.svg?logo=python&logoColor=white"
             alt="Python">
     </a>    
     <a href="https://codecov.io/gh/umapornp/textprepro">
-        <img src="https://img.shields.io/codecov/c/github/umapornp/textprepro?logo=codecov"
+        <img src="https://img.shields.io/codecov/c/github/umapornp/textprepro.svg?logo=codecov"
             alt="Codecov">
     </a>    
     <a href="https://github.com/umapornp/textprepro/blob/master/LICENSE">
