@@ -12,7 +12,7 @@
             alt="Python">
     </a>    
     <a href="https://codecov.io/gh/umapornp/textprepro">
-        <img src="https://img.shields.io/codecov/c/github/umapornp/textprepro.svg?logo=codecov"
+        <img src="https://img.shields.io/codecov/c/github/umapornp/textprepro?logo=codecov"
             alt="Codecov">
     </a>    
     <a href="https://github.com/umapornp/textprepro/blob/master/LICENSE">
