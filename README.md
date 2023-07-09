@@ -19,6 +19,10 @@
         <img src="https://img.shields.io/github/license/umapornp/textprepro.svg?logo=github"
             alt="License">
     </a>
+    <a href="https://pepy.tech/project/textprepro">
+        <img src="https://static.pepy.tech/badge/textprepro"
+            alt="Downloads">
+    </a>
 </p>
 
 
