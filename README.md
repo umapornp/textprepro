@@ -10,13 +10,13 @@
     <a href="https://pypi.org/project/textprepro">
         <img src="https://img.shields.io/pypi/pyversions/textprepro.svg?logo=python&logoColor=white"
             alt="Python">
-    </a>    
+    </a>
     <a href="https://codecov.io/gh/umapornp/textprepro">
         <img src="https://img.shields.io/codecov/c/github/umapornp/textprepro?logo=codecov"
             alt="Codecov">
-    </a>    
+    </a> 
     <a href="https://github.com/umapornp/textprepro/blob/master/LICENSE">
-        <img src="https://img.shields.io/github/license/umapornp/textprepro.svg?logo=github"
+        <img src="https://img.shields.io/github/license/umapornp/textprepro?logo=github"
             alt="License">
     </a>
     <a href="https://pepy.tech/project/textprepro">
@@ -134,7 +134,7 @@ pip install "git+https://github.com/umapornp/textprepro"
 ---------------------------------
 
 ## 💡 Features & Guides
-TextPrep provides many easy-to-use features for preprocessing general text as well as social media text. Apart from preprocessing tools, TextPrep also provides useful analytical tools to help you gain insight from your data (e.g., word distribution graphs and word clouds).
+TextPrepro provides many easy-to-use features for preprocessing general text as well as social media text. Apart from preprocessing tools, TextPrepro also provides useful analytical tools to help you gain insight from your data (e.g., word distribution graphs and word clouds).
 
 * ### 📋 For General Text
 
